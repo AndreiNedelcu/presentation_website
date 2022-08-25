@@ -1,0 +1,135 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(250, 242, 235);
+
+}
+
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    -webkit-box-shadow: 0px -6px 22px 4px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px -6px 22px 4px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px -6px 22px 4px rgba(0, 0, 0, 0.47);
+
+}
+
+.navbar-right div {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-right,
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right>*,
+.navbar-left>* {
+    padding: 20px;
+}
+
+.navbar-left {
+    margin-right: 20px;
+    font-weight: 700;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.navbar-right div:hover,
+.name:hover {
+    color: #8DAA91;
+    cursor: pointer;
+
+}
+
+img {
+
+    top: 0;
+    left: 0px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center center;
+    opacity: 1;
+    transition: none 0s ease 0s;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.main-content>* {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42rem;
+    margin-top: 20px;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+p {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+main {
+    display: block;
+}
+
+article {
+    padding: 0 2rem;
+    margin: 1rem 0;
+    border-radius: 7px;
+    border: 1px solid #8DAA91;
+    font-family: Josefin Sans, sans-serif;
+    background: #fff;
+    color: #333;
+    font-size: .5cm;
+    box-shadow: 5px 7px 6px -1px rgb(97 97 97 / 45%);
+}
+
+.article-tittle {
+    margin-bottom: 0.4375rem;
+    margin-top: 25px;
+    color: #649c96;
+}
+
+h3 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    font-weight: 900;
+    text-rendering: optimizeLegibility;
+    font-size: 1.4427rem;
+    line-height: 1.1;
+}
