@@ -9,6 +9,10 @@ body {
 
 }
 
+#link {
+    text-decoration: none;
+    color: #333;
+}
 
 .navbar {
     display: flex;
@@ -37,7 +41,7 @@ body {
     padding: 20px;
 }
 
-.navbar-left {
+.navbar-left div {
     margin-right: 20px;
     font-weight: 700;
     align-items: center;
